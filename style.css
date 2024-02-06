@@ -101,6 +101,7 @@ header{
     z-index: 1;
 }
 
+
 .logo img{
     max-width: 40px;
     width: 100%;
@@ -294,7 +295,7 @@ article figure > * {
     border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 /* ===============
@@ -331,4 +332,17 @@ article figure > * {
     .profile-manager-container{
         flex-flow: column wrap;
     }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: var(--step--2) var(--step-0);
+    background: var(--clr-primary);
+    color: var(--clr-text);
+    font-weight: 500;
+    gap: var(--step-2);
+    z-index: 1;
 }
