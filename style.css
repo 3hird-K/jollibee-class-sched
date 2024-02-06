@@ -346,3 +346,8 @@ footer{
     gap: var(--step-2);
     z-index: 1;
 }
+
+footer h3{
+    font-size: var(--step--1);
+    white-space: nowrap;
+}
